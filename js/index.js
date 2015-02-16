@@ -65,7 +65,7 @@
 		cityWeather.temp_max = data.main.temp_max - 273.15;
 		cityWeather.temp_min = data.main.temp_min - 273.15;
 		cityWeather.main = data.weather[0].main;
-
+		console.log(data);
 		renderTemplate(cityWeather);
 	};
 
